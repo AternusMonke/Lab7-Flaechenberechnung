@@ -24,5 +24,15 @@ class MainActivity : AppCompatActivity() {
         with(btn) { this?.setOnClickListener(View.OnClickListener { berrechene() }) }
 
     }
+	fun berrechene() {
+			try {
+				result =
+					java.lang.Double.valueOf(a!!.text.toString()) * java.lang.Double.valueOf(b!!.text.toString()) * 0.5
+				Ergebnis!!.text = result.toString()
+			} catch (e: Exception) {
+				Ergebnis!!.text = "Error"
+			}
+		}
+
 
 }

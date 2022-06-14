@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn" type="id" />
+    <item name="a" type="id" />
+    <item name="b" type="id" />
+    <item name="Ergebnis" type="id" />
+    <item name="buttonqr1" type="id" />
+    <item name="buttonqr2" type="id" />
+</resources>
